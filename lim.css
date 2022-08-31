@@ -1,0 +1,101 @@
+*{
+  box-sizing: border-box;
+}
+
+#pagina{
+  width: 100%;
+}
+
+/* sfondo nero con trasparenza  */
+#nero{
+  width: 45%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px 10px 10px 10px;
+  margin: 0% 10% 0% 25%;
+  padding: 9% 8% 9% 8%;
+}
+
+/* sfondo persone con monopattini */
+body{
+  background-image: url(materiale/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1{
+  color: lime;
+}
+
+h2{
+  color: white;
+  margin: 0% 0% 0%  0%
+}
+
+p{
+  color: white;
+  margin: 0% 0% 0%  0%
+}
+
+header{
+  text-align: center;
+}
+
+#logo{
+  width:30%;
+}
+
+/* nav per i buttons */
+nav{
+  display: inline;
+  background-color: #53FA00;
+}
+
+.barraverde{
+  padding: 4px 50px 4px 50px;
+  background-color: lime;
+  color: lime;
+  text-align: center;
+}
+
+.cbox{
+  display: inline;
+  font-family: sans-serif;
+}
+
+p{
+  font-family: monospace;
+}
+
+/* carica dei monopattini */
+.tutto{
+  width: 100%
+}
+
+#carica1{
+  background-color: orange;
+  color: orange;
+  border-radius: 10px 10px 10px 10px;
+  width: 40%;
+  padding: 1%
+}
+
+#carica2{
+  background-color: lime;
+  color: lime;
+  border-radius: 10px 10px 10px 10px;
+  width: 70%;
+  padding: 1%;
+}
+
+#carica3{
+  background-color: #cc0000;
+  color: #cc0000;
+  border-radius: 10px 10px 10px 10px;
+  width: 20%;
+  padding: 1%;
+}
+
+.monopattini{
+  margin: 2% 4% 2% 4%;
+  padding: 2% 4% 2% 4%;
+}
